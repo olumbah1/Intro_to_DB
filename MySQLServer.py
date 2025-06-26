@@ -22,8 +22,8 @@ try:
         # Close cursor
         mycursor.close()
 
-except Error as e:
-    print("Check properly, can't connect:", e)
+except mysql.connector.Error:
+    print("Check properly, can't connect:")
 
 finally:
     # Close the connection if it was opened
