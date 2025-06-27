@@ -1,3 +1,4 @@
+-- Write a script that inserts a single row in the table customer (database alx_book_store) in your MySQL server
 CREATE TABLE customer (
 customer_id PRIMARY KEY,
 customer_name VARCHAR(215),
